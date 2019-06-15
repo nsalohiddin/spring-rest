@@ -25,10 +25,8 @@ public class StudentController {
 		students = new ArrayList<>();
 		students.add(new Student("bobo", "boboyjon"));
 		students.add(new Student("momo", "momoyjon"));
-		students.add(new Student("Salohiddin", "Norqobilov"));
-		students.add(new Student("Firuza", "Sarimsoqova"));
-		students.add(new Student("Mubina", "SALOHIDDIN QIZI"));
-		students.add(new Student("MUHAMMAD", "ANVAROV"));
+		students.add(new Student("togo", "togojon"));
+		students.add(new Student("aka", "akajon"));
 	}
 	@GetMapping("/students/{studentId}")
 	public Student getStudent(@PathVariable int studentId) {
